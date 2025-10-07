@@ -6,7 +6,12 @@ We apply (optional) random camera acquisition to obtain a video at different tim
 
 ![alttext](https://github.com/andrej5elin/mie_particle_motion/blob/main/sampling.png?raw=true)
 
-We use Brownian motion simulator and the imaging model to compute the particle motion video. Below we plot the first and 15th frame obtained using the triggering scheme shown above.
+We use Brownian motion simulator to obtain trajectories of each particle inside the viewing area. We optionally apply pressure flow, to simulate pressure-induced motion of the particles. Below we plot a few trajectories. Because of the AC electric field, particles oscilate, while pressure-driven flow creates a constant drift, depending on the relative distance from the capillary wall.
+
+![alttext](https://github.com/andrej5elin/mie_particle_motion/blob/main/trajectories.png?raw=true)
+
+
+Finally, we apply the imaging model to compute the particle motion video. Below we plot the first and 15th frame obtained using the triggering scheme shown above.
 
 ![alttext](https://github.com/andrej5elin/mie_particle_motion/blob/main/particle_video.png?raw=true)
 
