@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1071310148.svg)](https://doi.org/10.5281/zenodo.17285112)
+
 # mie_particle_motion
 
 A jupyterlab-based tool for simulating optical motion of small particles dispersed in liquid under influence of external electric field. Imaging model is based on [mie_particle_microscopy](https://github.com/andrej5elin/mie_particle_microscopy).
