@@ -32,7 +32,7 @@ Optional, but highly recommended for faster computation on GPUs:
 
 ## Installation and Usage notes
 
-I recommend using anaconda to build [jupyter lab](https://jupyter.org/install).
+I recommend using [anaconda](https://www.anaconda.com/download) to build [jupyter lab](https://jupyter.org/install).
 
 ```console
 $ conda create --name microscope
