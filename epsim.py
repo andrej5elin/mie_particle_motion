@@ -1169,7 +1169,7 @@ class ParticleMotionSimulator:
             v = self.get_current_velocity()
 
         self.current_coordinates = compute_next_coordinates(
-            self.current_coordinates, v, self.diffusion_coefficients, self.channel_dimensions, self.time_step, self.flags)
+            self.current_coordinates, v, self.diffusion_coefficients, self.channel_dimensions, self.time_step, self.flags, self.rng)
         
         try:
             xp.eval(self.current_coordinates)
