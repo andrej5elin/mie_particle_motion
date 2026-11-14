@@ -5,11 +5,9 @@ A jupyterlab-based tool for simulating motion of small particles dispersed in li
 
 We apply (optional) random camera acquisition to obtain a video at different times relative to the voltage U of the AC electric field as shown in figure below. With random triggering scheme one is able to study oscilatory motion with fewer number of processed frames, or to overcome camera speed limitations using a dual-camera setup as explained in [1]
 
-![alttext](https://github.com/andrej5elin/mie_particle_motion/blob/main/sampling.png?raw=true)
-
 We use Brownian motion simulator to obtain trajectories of each particle inside the viewing area. We optionally apply pressure flow, to simulate pressure-induced motion of the particles. Below we plot a few trajectories. Because of the AC electric field, particles oscilate, while pressure-driven flow creates a constant drift, depending on the relative distance from the capillary wall.
 
-![alttext](https://github.com/andrej5elin/mie_particle_motion/blob/main/trajectories.pdf?raw=true)
+![alttext](https://github.com/andrej5elin/mie_particle_motion/blob/main/trajectories.png?raw=true)
 
 
 Finally, we apply the imaging model to compute the particle motion video. Below we plot the first and 15th frame obtained using the triggering scheme shown above.
