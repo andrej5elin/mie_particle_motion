@@ -25,6 +25,7 @@ Implementation is done in python for the jupyter lab IDE. You must have a workin
 * matplotlib
 * miepom
 * eptraj
+* miepython 
 
 Optional, but highly recommended for faster computation on GPUs:
 
@@ -38,7 +39,7 @@ I recommend using [anaconda](https://www.anaconda.com/download) to build [jupyte
 ```console
 $ conda create --name microscope
 $ conda activate microscope
-$ conda install numpy scipy matplotlib numba miepython miepom
+$ conda install numpy scipy matplotlib numba miepython miepom eptraj
 $ conda install jupyter
 $ jupyter lab
 ```
