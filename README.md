@@ -23,7 +23,8 @@ Implementation is done in python for the jupyter lab IDE. You must have a workin
 * numpy
 * scipy
 * matplotlib
-* miepython
+* miepom
+* eptraj
 
 Optional, but highly recommended for faster computation on GPUs:
 
