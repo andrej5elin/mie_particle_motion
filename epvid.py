@@ -234,13 +234,13 @@ initial_coordinates[0,2] = 20e-6 - sample_settings["channel_height"]/2
 initial_coordinates[1,2] = 80e-6 - sample_settings["channel_height"]/2
 initial_coordinates[2,2] = 200e-6 - sample_settings["channel_height"]/2
 
-import epsim as ep_motion
+import eptraj
 import numpy as np
 
 particles.set_coordinates(initial_coordinates)
 merged_motion_simulator_settings = {**sample_settings, **experiment_settings, **motion_simulator_settings}
 
-ep_sim = ep_motion.ParticleMotionSimulator(diameter = particles.diameter,  
+ep_sim = eptraj.ParticleMotionSimulator(diameter = particles.diameter,  
                                            mobility = particles.mobility, 
                                            rng = np.random.default_rng(0),
                                            **merged_motion_simulator_settings)
