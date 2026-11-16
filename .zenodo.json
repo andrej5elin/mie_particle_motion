@@ -1,0 +1,49 @@
+{
+"creators": [
+      {
+        "person_or_org": {
+          "family_name": "Petelin",
+          "given_name": "Andrej",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-3937-3328",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Petelin, Andrej",
+          "type": "personal"
+        }
+      }
+    ],
+    "description": "<p>A jupyterlab-based tool for simulating motion of small particles dispersed in liquid under influence of external electric field and pressure gradient.",
+    "funding": [
+      {
+        "award": {
+          "number": "P1-0192"
+        },
+        "funder": {
+          "id": "059bp8k51",
+          "name": "The Slovenian Research and Innovation Agency"
+        }
+      },
+      {
+        "award": {
+          "number": "J2-50089"
+        },
+        "funder": {
+          "id": "059bp8k51",
+          "name": "The Slovenian Research and Innovation Agency"
+        }
+      }
+    ],
+    
+    "resource_type": {
+      "id": "software",
+      "title": {
+        "de": "Software",
+        "en": "Software"
+      }
+    },
+  
+    "title": "Mie particle motion",
+  }
