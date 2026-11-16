@@ -1,21 +1,16 @@
 {
-"creators": [
-      {
-        "person_or_org": {
-          "family_name": "Petelin",
-          "given_name": "Andrej",
-          "identifiers": [
-            {
-              "identifier": "0000-0002-3937-3328",
-              "scheme": "orcid"
-            }
-          ],
-          "name": "Petelin, Andrej",
-          "type": "personal"
-        }
-      }
-    ],
+    "title": "Mie particle motion video simulation",
     "description": "<p>A jupyterlab-based tool for simulating motion of small particles dispersed in liquid under influence of external electric field and pressure gradient.",
+    "license": "MIT",
+    "upload_type": "software",
+    "access_right": "open",
+    "creators": [
+        {
+            "name": "Petelin, Andrej",
+            "affiliation": "Research Institute for Nature and Forest",
+            "orcid": "0000-0002-3937-3328"
+        }
+    ],
     "funding": [
       {
         "award": {
@@ -36,14 +31,4 @@
         }
       }
     ],
-    
-    "resource_type": {
-      "id": "software",
-      "title": {
-        "de": "Software",
-        "en": "Software"
-      }
-    },
-  
-    "title": "Mie particle motion",
-  }
+}
