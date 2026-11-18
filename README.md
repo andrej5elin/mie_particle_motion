@@ -39,8 +39,9 @@ I recommend using [anaconda](https://www.anaconda.com/download) to build [jupyte
 ```console
 $ conda create --name microscope
 $ conda activate microscope
-$ conda install numpy scipy matplotlib numba miepython miepom eptraj
+$ conda install numpy scipy matplotlib numba miepython
 $ conda install jupyter
+$ pip install eptraj miepom
 $ jupyter lab
 ```
 
