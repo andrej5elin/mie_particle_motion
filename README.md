@@ -46,6 +46,15 @@ $ jupyter lab
 
 Download the jupyterlab notebooks from the repository and run the code.
 
+## Zenodo metadata
+
+Future GitHub releases use `.zenodo.json` for their Zenodo metadata. The
+funding awards are listed in the notes because Zenodo's GitHub importer
+requires registered award IDs for structured grants; the original record
+contains only free-text award numbers. Add the awards to the structured
+funding field in Zenodo after publication if needed. This file does not
+change existing Zenodo records.
+
 ## References
 
 [[1]](https://doi.org/10.1039/C9SM00121B) Arko, M. & Petelin, A. *Soft Matter*, 2019,**15**, 2791-2797
