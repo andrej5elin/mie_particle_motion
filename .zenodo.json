@@ -1,0 +1,14 @@
+{
+  "title": "Mie particle motion video simulation",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Petelin, Andrej",
+      "orcid": "0000-0002-3937-3328"
+    }
+  ],
+  "description": "<p>A JupyterLab-based tool for simulating motion of small particles dispersed in liquid under the influence of an external electric field and pressure gradient.</p><p>The imaging model is based on <a href=\"https://github.com/andrej5elin/mie_particle_microscopy\">mie_particle_microscopy</a>.</p>",
+  "access_right": "open",
+  "license": "MIT",
+  "notes": "Funding: The Slovenian Research and Innovation Agency, awards P1-0192 and J2-50089."
+}
