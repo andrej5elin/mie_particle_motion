@@ -282,8 +282,8 @@ def triggered_video(seed = 0, count = count, use_sensor = True):
                 im = mp.get_array(microscope_sim.compute_image())
             else:
                 im = mp.get_array(microscope_sim.compute_intensity())
-            im1 = im if tmask_random[i] else None
-            im2 = im if tmask_regular[i] else None
+            im1 = im if tmask_regular[i] else None
+            im2 = im if tmask_random[i] else None
             yield im1, im2
     print_progress(count, count)
 
