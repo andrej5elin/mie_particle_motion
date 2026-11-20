@@ -1,7 +1,7 @@
 # mie_particle_motion
 [![DOI](https://zenodo.org/badge/1071310148.svg)](https://doi.org/10.5281/zenodo.17285112)
 
-A jupyterlab-based tool for simulating motion of small particles dispersed in liquid under influence of external electric field. Imaging model is based on [mie_particle_microscopy](https://github.com/andrej5elin/mie_particle_microscopy). The toolbox defined here was developed to study the role of experimental parameters, such as capillary dimensions and microscope settings on the obtained video and how these settings affect the analysis of videos when measuring flow, particle size, and electrophoretic mobility using the principles of cross-differential dynamic microscopy [1]. 
+A jupyterlab-based tool for simulating motion of small particles dispersed in liquid under influence of external electric field. Imaging model is based on [mie_particle_microscopy](https://github.com/andrej5elin/mie_particle_microscopy). The toolbox defined here was developed to study the role of experimental parameters, such as channel dimensions and microscope settings on the obtained video and how these settings affect the analysis of videos when measuring flow, particle size, and electrophoretic mobility using the principles of cross-differential dynamic microscopy [1]. 
 
 ![alttext](https://github.com/andrej5elin/mie_particle_motion/blob/main/simulation.png?raw=true)
 
