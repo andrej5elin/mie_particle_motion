@@ -1,4 +1,7 @@
 import os
+
+os.environ["MIEPYTHON_USE_JIT"] = "1"
+
 # in case miepom uses custom vectorized version of miepython
 # os.environ["MIEPOM_VECTORIZED_MIE"] = "1"
 
